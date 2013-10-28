@@ -65,6 +65,6 @@ In order to overcome this difficulty we slightly modified the transformation rul
 This simple modification of transformation rules  gives us ability to work in cycled coordinates, where, for instance, 1 degree angle points and 179 degree angle points are pretty close but using the previous approach they are far away.     
 \paragraph{determination of cluster's average size}
 We used Local Thickness ImageJ plugin (http://www.optinav.com/Local\_Thickness.htm) for quantifying average size of clusters on the angular images after the application of our modified k-means algorithm.
-This plugin outputs image each pixel of which has value of corresponding morphological feature of thresholded image.
+This plugin outputs image consisting of pixels with values of corresponding morphological features of thresholded source image.
 We built a  histogram of resulting image and detected positions (values of local thickness in pixels) of highest peaks on it.
-Then we averaged the values of these peaks over the specimen and got the size of orientation domain.  
+Then we averaged the= values of these peaks over the specimen and got the size of orientation domain.  
